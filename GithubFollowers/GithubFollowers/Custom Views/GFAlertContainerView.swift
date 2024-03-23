@@ -1,5 +1,5 @@
 //
-//  GFContainerView.swift
+//  GFAlertContainerView.swift
 //  GithubFollowers
 //
 //  Created by Daehoon Lee on 2024/03/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GFContainerView: UIView {
+class GFAlertContainerView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         configure()
