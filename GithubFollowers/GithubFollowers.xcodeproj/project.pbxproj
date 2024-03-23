@@ -20,6 +20,7 @@
 		78A7BFE52BAEC4CB0066E817 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFE42BAEC4CB0066E817 /* GFBodyLabel.swift */; };
 		78A7BFE72BAEC6280066E817 /* GFAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFE62BAEC6280066E817 /* GFAlertViewController.swift */; };
 		78A7BFEB2BAED6510066E817 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFEA2BAED6510066E817 /* UIViewController+Ext.swift */; };
+		78A7BFED2BAF27C10066E817 /* GFContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFEC2BAF27C10066E817 /* GFContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		78A7BFE42BAEC4CB0066E817 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		78A7BFE62BAEC6280066E817 /* GFAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertViewController.swift; sourceTree = "<group>"; };
 		78A7BFEA2BAED6510066E817 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		78A7BFEC2BAF27C10066E817 /* GFContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				78A7BFE22BAEC2170066E817 /* GFTitleLabel.swift */,
 				78A7BFE42BAEC4CB0066E817 /* GFBodyLabel.swift */,
 				78A7BFE62BAEC6280066E817 /* GFAlertViewController.swift */,
+				78A7BFEC2BAF27C10066E817 /* GFContainerView.swift */,
 				78A7BFEA2BAED6510066E817 /* UIViewController+Ext.swift */,
 				78A7BFE02BAEB80A0066E817 /* FollowerListViewController.swift */,
 				7813BE712BAC8003006A5AEC /* FavoritesListViewController.swift */,
@@ -169,6 +172,7 @@
 				7813BE5E2BAC6B27006A5AEC /* AppDelegate.swift in Sources */,
 				7813BE722BAC8003006A5AEC /* FavoritesListViewController.swift in Sources */,
 				7813BE602BAC6B27006A5AEC /* SceneDelegate.swift in Sources */,
+				78A7BFED2BAF27C10066E817 /* GFContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
