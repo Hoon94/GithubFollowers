@@ -22,6 +22,7 @@
 		78A7BFEB2BAED6510066E817 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFEA2BAED6510066E817 /* UIViewController+Ext.swift */; };
 		78A7BFED2BAF27C10066E817 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFEC2BAF27C10066E817 /* GFAlertContainerView.swift */; };
 		78A7BFF42BAF3A530066E817 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFF32BAF3A530066E817 /* Follower.swift */; };
+		78A7BFF62BAF3E160066E817 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFF52BAF3E160066E817 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		78A7BFEA2BAED6510066E817 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		78A7BFEC2BAF27C10066E817 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		78A7BFF32BAF3A530066E817 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		78A7BFF52BAF3E160066E817 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				78A7BFF32BAF3A530066E817 /* Follower.swift */,
+				78A7BFF52BAF3E160066E817 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				78A7BFEB2BAED6510066E817 /* UIViewController+Ext.swift in Sources */,
 				7813BE742BAC956C006A5AEC /* GFButton.swift in Sources */,
 				78A7BFE12BAEB80A0066E817 /* FollowerListViewController.swift in Sources */,
+				78A7BFF62BAF3E160066E817 /* User.swift in Sources */,
 				78A7BFE52BAEC4CB0066E817 /* GFBodyLabel.swift in Sources */,
 				78A7BFF42BAF3A530066E817 /* Follower.swift in Sources */,
 				78A7BFE32BAEC2170066E817 /* GFTitleLabel.swift in Sources */,
