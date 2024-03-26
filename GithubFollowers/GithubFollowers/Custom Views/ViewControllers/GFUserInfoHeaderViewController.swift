@@ -38,7 +38,7 @@ class GFUserInfoHeaderViewController: UIViewController {
         usernameLabel.text = user.login
         nameLabel.text = user.name
         locationLabel.text = user.location ?? "No Location"
-        bioLabel.text = user.bio ?? "No bio available"
+        bioLabel.text = user.bio?.trimmingCharacters(in: .whitespacesAndNewlines) ?? "No bio available"
         bioLabel.numberOfLines = 3
         
         locationImageView.image = UIImage(systemName: "mappin.and.ellipse")
