@@ -7,9 +7,9 @@
 
 import UIKit
 
-protocol UserInfoViewControllerDelegate {
-    func didTapGitHubProfile()
-    func didTapGetFollowers()
+protocol UserInfoViewControllerDelegate: AnyObject {
+    func didTapGitHubProfile(for user: User)
+    func didTapGetFollowers(for user: User)
 }
 
 class UserInfoViewController: UIViewController {
@@ -104,12 +104,16 @@ class UserInfoViewController: UIViewController {
 }
 
 extension UserInfoViewController: UserInfoViewControllerDelegate {
-    func didTapGitHubProfile() {
-        // Show safari view controller
+    func didTapGitHubProfile(for user: User) {
+        guard let url = URL(string: user.htmlUrl) else {
+            presentGFAlertOnMainThread(title: "Invalid URL", message: "The url attached to this user is invalid.", buttonTitle: "Ok")
+            return
+        }
+        
+        presentSafariViewController(with: url)
     }
     
-    func didTapGetFollowers() {
-        // dismiss viewcontroller
-        // tell follower list screen the new user
+    func didTapGetFollowers(for user: User) {
+        
     }
 }

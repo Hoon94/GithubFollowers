@@ -13,7 +13,7 @@ class GFItemInfoViewController: UIViewController {
     let rightItemInfoView = GFItemInfoView()
     let actionButton = GFButton()
     var user: User!
-    var delegate: UserInfoViewControllerDelegate!
+    weak var delegate: UserInfoViewControllerDelegate!
     
     init(user: User) {
         super.init(nibName: nil, bundle: nil)
