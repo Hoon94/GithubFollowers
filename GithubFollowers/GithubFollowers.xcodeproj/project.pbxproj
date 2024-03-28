@@ -44,6 +44,7 @@
 		78A7BFF42BAF3A530066E817 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFF32BAF3A530066E817 /* Follower.swift */; };
 		78A7BFF62BAF3E160066E817 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFF52BAF3E160066E817 /* User.swift */; };
 		78A7BFF92BAF44EC0066E817 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A7BFF82BAF44EC0066E817 /* NetworkManager.swift */; };
+		78F8B3C32BB5963C00593516 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F8B3C22BB5963C00593516 /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		78A7BFF32BAF3A530066E817 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		78A7BFF52BAF3E160066E817 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		78A7BFF82BAF44EC0066E817 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		78F8B3C22BB5963C00593516 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +273,7 @@
 				78A7BFEA2BAED6510066E817 /* UIViewController+Ext.swift */,
 				789E4FE62BB3F236001B8611 /* Date+Ext.swift */,
 				789E4FE82BB3F26F001B8611 /* String+Ext.swift */,
+				78F8B3C22BB5963C00593516 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				789E4FE72BB3F236001B8611 /* Date+Ext.swift in Sources */,
 				7813BE602BAC6B27006A5AEC /* SceneDelegate.swift in Sources */,
 				78A7BFED2BAF27C10066E817 /* GFAlertContainerView.swift in Sources */,
+				78F8B3C32BB5963C00593516 /* UIView+Ext.swift in Sources */,
 				789E4FDC2BB3E10D001B8611 /* GFItemInfoView.swift in Sources */,
 				789E4FD82BB31CD2001B8611 /* GFUserInfoHeaderViewController.swift in Sources */,
 				789E4FDA2BB334F6001B8611 /* Constants.swift in Sources */,
