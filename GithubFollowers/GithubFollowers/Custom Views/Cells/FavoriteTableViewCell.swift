@@ -22,6 +22,12 @@ class FavoriteTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        avatarImageView.image = Images.placeholder
+        usernameLabel.text = nil
+    }
+    
     func set(favorite: Follower) {
         avatarImageView.downloadImage(fromURL: favorite.avatarUrl)
         usernameLabel.text = favorite.login
