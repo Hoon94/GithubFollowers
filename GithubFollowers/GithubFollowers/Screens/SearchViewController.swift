@@ -27,6 +27,7 @@ final class SearchViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        usernameTextField.text = ""
         navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
@@ -41,6 +42,8 @@ final class SearchViewController: UIViewController {
             presentGFAlertOnMainThread(title: "Empty Username", message: "Please enter a username. We need to know who to look for 😀.", buttonTitle: "Ok")
             return
         }
+        
+        usernameTextField.resignFirstResponder()
         
         let followerListViewController = FollowerListViewController()
         followerListViewController.username = usernameTextField.text
