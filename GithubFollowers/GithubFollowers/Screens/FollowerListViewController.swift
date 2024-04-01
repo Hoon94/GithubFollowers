@@ -76,18 +76,18 @@ class FollowerListViewController: GFDataLoadingViewController {
         showLoadingView()
         isLoadingMoreFollowers = true
         
-        NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
-            guard let self = self else { return }
-            self.dismissLoadingView()
-            
-            switch result {
-            case .success(let followers):
-                self.updateUI(with: followers)
-            case .failure(let error):
-                self.presentGFAlertOnMainThread(title: "Bad Stuff Happened", message: error.rawValue, buttonTitle: "Ok")
+        Task {
+            do {
+                let followers = try await NetworkManager.shared.getFollowers(for: username, page: page)
+                updateUI(with: followers)
+            } catch let error as NetworkError {
+                presentGFAlert(title: "Bad Stuff Happened", message: error.rawValue, buttonTitle: "Ok")
+            } catch {
+                presentDefaultAlert(title: "Something Went Wrong", message: NetworkError.unableToComplete.rawValue, buttonTitle: "Ok")
             }
             
-            self.isLoadingMoreFollowers = false
+            dismissLoadingView()
+            isLoadingMoreFollowers = false
         }
     }
     
@@ -125,17 +125,17 @@ class FollowerListViewController: GFDataLoadingViewController {
     private func addButtonTapped() {
         showLoadingView()
         
-        NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
-            guard let self = self else { return }
-            
-            self.dismissLoadingView()
-            
-            switch result {
-            case .success(let user):
-                self.addUserToFavorites(user: user)
-            case .failure(let error):
-                self.presentGFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "Ok")
+        Task {
+            do {
+                let user = try await NetworkManager.shared.getUserInfo(for: username)
+                addUserToFavorites(user: user)
+            } catch let error as NetworkError {
+                presentGFAlert(title: "Something Went Wrong", message: error.rawValue, buttonTitle: "Ok")
+            } catch {
+                presentDefaultAlert(title: "Something Went Wrong", message: NetworkError.unableToComplete.rawValue, buttonTitle: "Ok")
             }
+            
+            dismissLoadingView()
         }
     }
     

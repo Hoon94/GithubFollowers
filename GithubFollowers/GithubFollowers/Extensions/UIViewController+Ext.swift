@@ -18,6 +18,20 @@ extension UIViewController {
         }
     }
     
+    func presentGFAlert(title: String, message: String, buttonTitle: String) {
+        let alertViewController = GFAlertViewController(title: title, message: message, buttonTitle: buttonTitle)
+        alertViewController.modalPresentationStyle = .overFullScreen
+        alertViewController.modalTransitionStyle = .crossDissolve
+        present(alertViewController, animated: true)
+    }
+    
+    func presentDefaultAlert(title: String, message: String, buttonTitle: String) {
+        let alertViewController = GFAlertViewController(title: title, message: message, buttonTitle: buttonTitle)
+        alertViewController.modalPresentationStyle = .overFullScreen
+        alertViewController.modalTransitionStyle = .crossDissolve
+        present(alertViewController, animated: true)
+    }
+    
     func presentSafariViewController(with url: URL) {
         let safariViewController = SFSafariViewController(url: url)
         safariViewController.preferredControlTintColor = .systemGreen
