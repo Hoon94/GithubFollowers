@@ -41,6 +41,12 @@ class GFDataLoadingViewController: UIViewController {
     }
     
     func showEmptyStateView(with message: String, in view: UIView) {
+        view.subviews.forEach { subview in
+            if subview is GFEmptyStateView {
+                subview.removeFromSuperview()
+            }
+        }
+        
         let emptyStateView = GFEmptyStateView(message: message)
         emptyStateView.frame = view.bounds
         view.addSubview(emptyStateView)
