@@ -201,6 +201,7 @@ extension FollowerListViewController: UserInfoViewControllerDelegate {
         self.username = username
         title = username
         page = 1
+        hasMoreFollowers = true
         followers.removeAll()
         filteredFollowers.removeAll()
         collectionView.scrollToItem(at: IndexPath(item: 0, section: 0), at: .top, animated: true)
