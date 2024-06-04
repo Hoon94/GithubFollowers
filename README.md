@@ -19,19 +19,19 @@ GitHub 사용자의 팔로워를 검색해 볼 수 있습니다. 검색한 팔�
 
 | 사용자명 확인 | 팔로워 검색 |
 |:--------:|:--------:|
-|<img src= width="300">|<img src=  width="300">|
+|<img src="https://github.com/Hoon94/GithubFollowers/assets/43189761/f1ec19dd-db58-4e0f-88db-caaac90ee7ac" width="300">|<img src="https://github.com/Hoon94/GithubFollowers/assets/43189761/3fc27260-96c2-40f8-880c-e2bc142cfd86" width="300">|
 
 | 즐겨찾기 추가 | 팔로워 리스트 검색 |
 |:--------:|:--------:|
-|<img src= width="300">|<img src=  width="300">|
+|<img src="https://github.com/Hoon94/GithubFollowers/assets/43189761/095096f8-d670-4bcd-a034-96b3e5262914" width="300">|<img src="https://github.com/Hoon94/GithubFollowers/assets/43189761/4d230e6a-4bfd-45a8-ab48-910bb9e1918e" width="300">|
 
 | 프로필 확인 | 다음 팔로워로 이동 |
 |:--------:|:--------:|
-|<img src= width="300">|<img src=  width="300">|
+|<img src="https://github.com/Hoon94/GithubFollowers/assets/43189761/bb7dd9a7-2205-40d0-8f8e-f920ad740d15" width="300">|<img src="https://github.com/Hoon94/GithubFollowers/assets/43189761/63d4983a-6d82-4872-859c-c07f71468cc7" width="300">|
 
 | 즐겨찾기 삭제 | 라이트/다크 모드 지원 |
 |:--------:|:--------:|
-|<img src= width="300">|<img src=  width="300">|
+|<img src="https://github.com/Hoon94/GithubFollowers/assets/43189761/455ca9dc-3aab-4798-b3d5-c66d28b6f172" width="300">|<img src="https://github.com/Hoon94/GithubFollowers/assets/43189761/a81b63c1-1522-4a56-a1f0-ae97ec15bd03" width="300">|
 
 </br>
 
@@ -113,7 +113,7 @@ GitHub 사용자의 팔로워를 검색해 볼 수 있습니다. 검색한 팔�
 
     | 1. 투명도 조절 | 2. 블러 처리 |
     | :---------: | :--------: |
-    | <Img src = "https://hackmd.io/_uploads/H18CdLiEC.png" width="500"> | <Img src = "https://hackmd.io/_uploads/r1edtLo4A.png" width="500">|
+    | <Img src = "https://github.com/Hoon94/GithubFollowers/assets/43189761/897345fd-b733-4f29-b5cb-bde9bf8133f5" width="300"> | <Img src = "https://github.com/Hoon94/GithubFollowers/assets/43189761/2ecefbc8-a2ce-455a-ab93-ec01147e6221" width="300">|
 
     - 1. 배경화면 투명도 조절
 
